@@ -16,7 +16,12 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
          
-    
+    <systemProperties>
+          <property>
+                    <name>allure.results.directory</name>
+                    <value>C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\lab4\allure-results</value>
+           </property>
+ </systemProperties>
 
     <dependencies>
         <dependency>
