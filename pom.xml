@@ -15,6 +15,13 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+         
+         <systemProperties>
+          <property>
+                    <name>allure.results.directory</name>
+                    <value>C:\Users\Teleca\.jenkins\workspace\maven-jlr\allure-results</value>
+           </property>
+ </systemProperties>
 
     <dependencies>
         <dependency>
