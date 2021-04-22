@@ -22,7 +22,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>6.8</version>
+            <version>7.1.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -40,6 +40,11 @@
             <artifactId>cucumber-java</artifactId>
             <version>6.10.0</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>ru.yandex.qatools.htmlelements</groupId>
+            <artifactId>htmlelements-java</artifactId>
+            <version>1.20.0</version>
         </dependency>
         <dependency>
             <groupId>io.qameta.allure</groupId>
